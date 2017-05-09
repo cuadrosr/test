@@ -7,3 +7,4 @@ GPApost<-c(runif(200, min=0, max=4))
 condition<-sample(0:1,200,replace=T)
 FAKEDATA<-data.frame(ID,gender, GPApre, GPApost,condition)
 write.csv(FAKEDATA, file="FakeDataSocialExperiment.csv")
+##BLABLA
